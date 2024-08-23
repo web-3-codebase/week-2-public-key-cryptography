@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2022",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    
+    /* Modules */
+    "module": "NodeNext",                                /* Use ES Modules and Node.js specific extensions (like .mjs and .cjs). */
+    "moduleResolution": "NodeNext",                      /* Use Node's resolution logic with ESNext module features. */
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "outDir": "./dist",                                  /* Specify an output folder for all emitted files. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
